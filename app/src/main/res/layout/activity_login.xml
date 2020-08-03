@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="@drawable/nen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edtTenDangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên đăng nhập"
+        android:textSize="23sp"
+        android:textColorHint="@color/trang"
+        android:textColor="@color/trang"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edtMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:textSize="23sp"
+        android:textColorHint="@color/trang"
+        android:textColor="@color/trang"
+        android:layout_margin="10dp"/>
+
+    <CheckBox
+        android:id="@+id/cbNho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/trang"
+        android:text="  Nhớ mật khẩu"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:id="@+id/btnDangNhap"
+        android:layout_margin="20dp"
+        android:textColor="@color/trang"
+        android:background="@color/colorAccent"
+        android:textSize="16sp"
+        />
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Đăng kí"-->
+<!--        android:id="@+id/btnDangKi"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:textColor="@color/trang"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:textSize="16sp"/>-->
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imMap"
+            android:baselineAlignBottom="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_map"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMap"
+            android:layout_below="@id/imMap"
+            android:text="Map"
+            android:textSize="20sp"
+            android:textColor="@color/trang"
+            android:layout_marginLeft="20sp"/>
+
+        <ImageView
+            android:id="@+id/imNews"
+            android:baselineAlignBottom="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_news"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/imMap"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNews"
+            android:layout_below="@id/imMap"
+            android:text="News"
+            android:textSize="20sp"
+            android:textColor="@color/trang"
+            android:layout_marginLeft="35sp"
+            android:layout_toRightOf="@id/tvMap"/>
+
+        <ImageView
+            android:id="@+id/imFace"
+            android:baselineAlignBottom="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo_face"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/imNews"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFace"
+            android:layout_below="@id/imMap"
+            android:text="Facebook"
+            android:textSize="20sp"
+            android:textColor="@color/trang"
+            android:layout_marginLeft="25sp"
+            android:layout_toRightOf="@id/tvNews"/>
+    </RelativeLayout>
+</LinearLayout>

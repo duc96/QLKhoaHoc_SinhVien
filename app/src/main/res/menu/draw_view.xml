@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/khoaHocCuaToi"
+        android:title="Khóa học của tôi"
+        />
+    <item
+        android:id="@+id/danhSachKhoaHoc"
+        android:title="Danh sách khóa học"
+        />
+    <item
+        android:id="@+id/thoat"
+        android:title="Thoát"
+        />
+</menu>

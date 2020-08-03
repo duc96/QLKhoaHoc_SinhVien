@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/lich_hoc"
+        android:title="Lịch học"
+        android:icon="@drawable/ic_lich"
+        />
+    <item
+        android:id="@+id/lich_thi"
+        android:title="Lịch thi"
+        android:icon="@drawable/ic_lich"
+        />
+</menu>

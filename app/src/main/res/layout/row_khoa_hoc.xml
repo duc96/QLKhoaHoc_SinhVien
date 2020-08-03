@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvTenKhoaHoc"
+        android:layout_width="0dp"
+        android:layout_height="26sp"
+        android:layout_weight="1"
+        android:text="tenKH"
+        android:layout_margin="5dp"
+        android:textSize="23sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/tvNgayBatDau"
+        android:layout_width="0dp"
+        android:layout_height="26sp"
+        android:layout_weight="1"
+        android:text="ngayBatDau"
+        android:layout_margin="5dp"
+        android:textSize="23sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/tvNgayKetThuc"
+        android:layout_width="0dp"
+        android:layout_height="26sp"
+        android:layout_weight="1"
+        android:text="NgayKetThuc"
+        android:layout_margin="5dp"
+        android:textSize="23sp"
+        android:gravity="center"/>
+
+</LinearLayout>

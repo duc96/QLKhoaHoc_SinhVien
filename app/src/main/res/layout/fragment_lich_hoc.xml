@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trang"
+    tools:context=".fragment.LichHocFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            android:scrollbarAlwaysDrawVerticalTrack="true">
+
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="T2" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="T3" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="T4" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="T5" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="T6" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="T7" />
+
+            </TableRow>
+
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="Ca 1:\n7h30/\n9h30" />
+
+                <TextView
+                    android:id="@+id/t2c1"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t3c1"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t4c1"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t5c1"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t6c1"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t7c1"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+            </TableRow>
+
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="Ca 2:\n9h45/\n11h30" />
+
+                <TextView
+                    android:id="@+id/t2c2"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t3c2"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t4c2"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t5c2"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t6c2"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t7c2"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+            </TableRow>
+
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="Ca 3:\n12h45/\n14h45" />
+
+                <TextView
+                    android:id="@+id/t2c3"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t3c3"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t4c3"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t5c3"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t6c3"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:id="@+id/t7c3"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+            </TableRow>
+
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="Ca 4:\n15h/\n17h" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+            </TableRow>
+
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="Ca 5:\n17h45/\n19h30" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+
+                <TextView
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="//" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</FrameLayout>
